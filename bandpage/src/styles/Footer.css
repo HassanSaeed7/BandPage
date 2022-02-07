@@ -1,0 +1,14 @@
+div {
+    text-align: center;
+}
+.contact {
+    
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: underline;
+    
+}
+.contact:hover {
+    background-color: orange;
+    text-decoration: none;
+}
