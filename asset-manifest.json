@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BandPage/static/css/main.1a0d0cee.css",
-    "main.js": "/BandPage/static/js/main.f224813c.js",
+    "main.js": "/BandPage/static/js/main.207d11f0.js",
     "static/media/6.jpg": "/BandPage/static/media/6.9b5ade82e8fd08bd5229.jpg",
     "static/media/7.jpg": "/BandPage/static/media/7.cfb4f2581555f959e3df.jpg",
     "static/media/3.jpg": "/BandPage/static/media/3.094614cb7fd0ac3aa781.jpg",
@@ -13,10 +13,10 @@
     "static/media/us.png": "/BandPage/static/media/us.e6cd1ccc5ab7202b2668.png",
     "index.html": "/BandPage/index.html",
     "main.1a0d0cee.css.map": "/BandPage/static/css/main.1a0d0cee.css.map",
-    "main.f224813c.js.map": "/BandPage/static/js/main.f224813c.js.map"
+    "main.207d11f0.js.map": "/BandPage/static/js/main.207d11f0.js.map"
   },
   "entrypoints": [
     "static/css/main.1a0d0cee.css",
-    "static/js/main.f224813c.js"
+    "static/js/main.207d11f0.js"
   ]
 }
