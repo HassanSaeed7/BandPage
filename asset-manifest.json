@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/BandPage/static/css/main.1a0d0cee.css",
+    "main.js": "/BandPage/static/js/main.f224813c.js",
+    "static/media/6.jpg": "/BandPage/static/media/6.9b5ade82e8fd08bd5229.jpg",
+    "static/media/7.jpg": "/BandPage/static/media/7.cfb4f2581555f959e3df.jpg",
+    "static/media/3.jpg": "/BandPage/static/media/3.094614cb7fd0ac3aa781.jpg",
+    "static/media/5.jpg": "/BandPage/static/media/5.44aabc42b168d2225ca4.jpg",
+    "static/media/4.jpg": "/BandPage/static/media/4.6b037c6d107a439943fc.jpg",
+    "static/media/1.jpg": "/BandPage/static/media/1.dbe65ca62219763d70e7.jpg",
+    "static/media/2.jpg": "/BandPage/static/media/2.88b84618e66b2097eaa1.jpg",
+    "static/media/wake.png": "/BandPage/static/media/wake.a77a6f8be32d7048f73a.png",
+    "static/media/us.png": "/BandPage/static/media/us.e6cd1ccc5ab7202b2668.png",
+    "index.html": "/BandPage/index.html",
+    "main.1a0d0cee.css.map": "/BandPage/static/css/main.1a0d0cee.css.map",
+    "main.f224813c.js.map": "/BandPage/static/js/main.f224813c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a0d0cee.css",
+    "static/js/main.f224813c.js"
+  ]
+}
