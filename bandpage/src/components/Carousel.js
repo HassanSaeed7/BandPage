@@ -41,6 +41,8 @@ const Carousel = () => {
     modules={[EffectCoverflow, Pagination]}
     className="mySwiper"
   >
+
+
         <SwiperSlide> 
           <img src={six} />
        </SwiperSlide>
@@ -65,8 +67,6 @@ const Carousel = () => {
         <SwiperSlide> 
           <img src={five} />
        </SwiperSlide>
-
-        
 
        <SwiperSlide> 
           <img src={seven} />
