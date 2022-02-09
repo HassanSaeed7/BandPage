@@ -3,7 +3,7 @@
   "name": "bandpage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hassansaeed7.github.io/BandPage",
+  "homepage": "https://hassansaeed7.github.io/BandPage/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
