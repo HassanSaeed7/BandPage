@@ -49,7 +49,7 @@ const Carousel = () => {
       
         <SwiperSlide> 
           <img src={one} />
-          <a href="https://waketheband.bandcamp.com/releases"></a>
+          
         </SwiperSlide>
 
         <SwiperSlide> 
