@@ -2,7 +2,7 @@
   "name": "bandpage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hassansaeed7.github.io/",
+  "homepage": "https://bandpage.vercel.app/",
   "dependencies": {
     "@mui/icons-material": "^5.4.2",
     "@testing-library/jest-dom": "^5.16.2",
