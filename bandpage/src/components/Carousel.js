@@ -42,18 +42,18 @@ const Carousel = ({ btnName }) => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={two} />
-          <button className="carousel-btn">Band Members</button>
-        </SwiperSlide>
-
-        <SwiperSlide>
           <img src={five} />
           <button className="carousel-btn">Videos</button>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={six} />
+          <img src={two} />
           <button className="carousel-btn">Other Projects</button>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={six} />
+          <button className="carousel-btn">Band Members</button>
         </SwiperSlide>
       </Swiper>
     </>

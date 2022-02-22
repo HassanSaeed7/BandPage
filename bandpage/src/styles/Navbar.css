@@ -19,7 +19,7 @@ font-family: 'Acme', sans-serif;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 1% auto;
+    margin: 0 auto;
     font-family: 'Fredericka the Great', cursive;
 }
 
