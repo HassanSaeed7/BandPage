@@ -1,20 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bungee+Hairline&family=Caesar+Dressing&family=Cormorant:wght@300&family=El+Messiri:wght@400;500&family=Fredericka+the+Great&family=Jolly+Lodger&family=Josefin+Slab:wght@100;200&family=Jost:wght@100&family=Righteous&family=Rock+3D&family=Special+Elite&family=Syncopate&display=swap');
+/* font-family: 'Bungee Hairline', cursive; |
+font-family: 'Caesar Dressing', cursive; |
+
+font-family: 'Fredericka the Great', cursive; |
+font-family: 'Jolly Lodger', cursive; |
+font-family: 'Jost', sans-serif; |
+font-family: 'Righteous', cursive; |
+font-family: 'Special Elite', cursive; |
+
+font-family: 'El Messiri', sans-serif; 
+font-family: 'Rock 3D', cursive;
+font-family: 'Syncopate', sans-serif; 
+font-family: 'Josefin Slab', serif;
+font-family: 'Cormorant', serif;
+font-family: 'Acme', sans-serif;*/
+
 .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 1% auto;
+    font-family: 'Fredericka the Great', cursive;
 }
 
-.poster {
-    width: 20%;
-    height: 20vh;
-}
+
 .navbar-links {
     display: flex;
     gap: 15%;
 }
 .navbar-links a {
     text-decoration: none;
-    
     color: black;
+    font-size: 3rem;
+}
+h1 {
+    font-size: 6rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar {
+    flex-direction: column;
+    }
 }

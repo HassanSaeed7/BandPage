@@ -1,16 +1,18 @@
 import React from "react";
+import Iframe from "react-iframe";
 
 const Player = () => {
   return (
-      <>
-    <iframe
-      style={`border: 0; width: 10%; height: 120px;`}
-      title="player"
-      src="https://bandcamp.com/EmbeddedPlayer/album=2562109330/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/"
-      seamless
-    >
-      <a href="https://waketheband.bandcamp.com/album/-"> by WAKE</a>
-    </iframe>
+    <>
+      <Iframe
+        url="https://bandcamp.com/EmbeddedPlayer/album=2562109330/size=large/bgcol=ffffff/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/"
+        width="700px"
+        height="120px"
+        id="player"
+        className="myClassname"
+        display="initial"
+        position="relative"
+      />
     </>
   );
 };

@@ -8,7 +8,8 @@ const Home = () => {
     return (
         <>
             <Navbar />
-            <Carousel />
+            <Player />
+             <Carousel />
             <Footer />
         </>
     )

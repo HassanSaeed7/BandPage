@@ -13,69 +13,49 @@ import six from "../6small.jpg";
 import seven from "../7.jpg";
 import { EffectCoverflow, Pagination } from "swiper";
 
-
-  
-
-  
-
-const Carousel = ({btnName}) => {
-    
-    
-
+const Carousel = ({ btnName }) => {
   return (
     <>
-    
-    < Swiper
-    effect={"coverflow"}
-    grabCursor={true}
-    centeredSlides={true}
-    slidesPerView={"auto"}
-    coverflowEffect={{
-      rotate: 10,
-      stretch: 0,
-      depth: 300,
-      modifier: 1,
-      slideShadows: false,
-    }}
-    pagination={false}
-    modules={[EffectCoverflow, Pagination]}
-    className="mySwiper"
-  >
-      <SwiperSlide> 
+      <Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 10,
+          stretch: 0,
+          depth: 300,
+          modifier: 1,
+          slideShadows: false
+        }}
+        pagination={false}
+        modules={[EffectCoverflow, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
           <img src={three} />
           <button className="carousel-btn">Tours</button>
-       </SwiperSlide>
-
-
-       <SwiperSlide> 
-          <img src={two} />
-          <button className="carousel-btn">Band Members</button>
-       </SwiperSlide>
-
-        
-        <SwiperSlide> 
+        </SwiperSlide>
+        <SwiperSlide>
           <img src={one} />
           <button className="carousel-btn">Music</button>
         </SwiperSlide>
 
-        
+        <SwiperSlide>
+          <img src={two} />
+          <button className="carousel-btn">Band Members</button>
+        </SwiperSlide>
 
-       
-
-
-        <SwiperSlide> 
+        <SwiperSlide>
           <img src={five} />
           <button className="carousel-btn">Videos</button>
-       </SwiperSlide>
+        </SwiperSlide>
 
-       <SwiperSlide> 
+        <SwiperSlide>
           <img src={six} />
           <button className="carousel-btn">Other Projects</button>
-       </SwiperSlide>
-      
-      
-      </ Swiper>
-
+        </SwiperSlide>
+      </Swiper>
     </>
   );
 };

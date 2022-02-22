@@ -2,11 +2,13 @@ div {
     text-align: center;
 }
 .contact {
-    
     font-size: 1.2rem;
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
     
+}
+.contact a {
+    font-size: 2rem;
 }
 .contact:hover {
     background-color: orange;
