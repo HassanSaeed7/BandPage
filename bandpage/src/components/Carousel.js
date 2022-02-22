@@ -4,12 +4,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import one from "../1.jpg";
+import one from "../1s.jpg";
 import two from "../2.jpg";
-import three from "../3.jpg";
+import three from "../3small.jpg";
 import four from "../4.jpg";
 import five from "../5.jpg";
-import six from "../6.jpg";
+import six from "../6small.jpg";
 import seven from "../7.jpg";
 import { EffectCoverflow, Pagination } from "swiper";
 
@@ -18,7 +18,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 
   
 
-const Carousel = () => {
+const Carousel = ({btnName}) => {
     
     
 
@@ -31,9 +31,9 @@ const Carousel = () => {
     centeredSlides={true}
     slidesPerView={"auto"}
     coverflowEffect={{
-      rotate: 50,
+      rotate: 10,
       stretch: 0,
-      depth: 100,
+      depth: 300,
       modifier: 1,
       slideShadows: false,
     }}
@@ -41,38 +41,41 @@ const Carousel = () => {
     modules={[EffectCoverflow, Pagination]}
     className="mySwiper"
   >
-
-
-        <SwiperSlide> 
-          <img src={six} />
+      <SwiperSlide> 
+          <img src={three} />
+          <button className="carousel-btn">Tours</button>
        </SwiperSlide>
-      
+
+
+       <SwiperSlide> 
+          <img src={two} />
+          <button className="carousel-btn">Band Members</button>
+       </SwiperSlide>
+
+        
         <SwiperSlide> 
           <img src={one} />
-          
+          <button className="carousel-btn">Music</button>
         </SwiperSlide>
 
-        <SwiperSlide> 
-          <img src={two} />
-       </SwiperSlide>
+        
 
-       <SwiperSlide> 
-          <img src={three} />
-       </SwiperSlide>
+       
 
-       <SwiperSlide> 
-          <img src={four} />
-       </SwiperSlide>
 
         <SwiperSlide> 
           <img src={five} />
+          <button className="carousel-btn">Videos</button>
        </SwiperSlide>
 
        <SwiperSlide> 
-          <img src={seven} />
+          <img src={six} />
+          <button className="carousel-btn">Other Projects</button>
        </SwiperSlide>
       
+      
       </ Swiper>
+
     </>
   );
 };
