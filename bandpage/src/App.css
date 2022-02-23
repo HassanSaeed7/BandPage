@@ -6,7 +6,6 @@
 .App {
   width: 100%;
   min-height: 100vh;
-  
 }
 
 .swiper {
@@ -47,11 +46,15 @@
   margin-top: 5%;
   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
-
+.player {
+  text-align: center;
+  margin: 0 auto 2.5%;
+}
 iframe {
   border-width: 0px;
   border-style: inset;
   border-color: initial;
   border-image: initial;
-  margin: 0 auto 3%;
+  
+  
 }

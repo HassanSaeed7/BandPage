@@ -32,9 +32,13 @@ font-family: 'Acme', sans-serif;*/
     text-decoration: none;
     color: black;
     font-size: 3rem;
+    font-family: 'Fredericka the Great', cursive;
+}
+.navbar-links a:hover {
+color: red;
 }
 h1 {
-    font-size: 6rem;
+    font-size: clamp(1rem, 10vmin, 7rem);
 }
 
 @media screen and (max-width: 1000px) {

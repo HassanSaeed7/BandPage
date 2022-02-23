@@ -1,5 +1,6 @@
-div {
+.Footer {
     text-align: center;
+    font-family: 'Jost', sans-serif;
 }
 .contact {
     font-size: 1.2rem;
@@ -9,8 +10,10 @@ div {
 }
 .contact a {
     font-size: 2rem;
+    
 }
 .contact:hover {
-    background-color: orange;
     text-decoration: none;
+    color: red;
+    
 }
