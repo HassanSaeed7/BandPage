@@ -1,12 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import one from "../1.jpg";
-import two from "../2.jpg";
-import three from "../3.jpg";
-
-import five from "../10.jpg";
-import band from "../6.jpg"
-import seven from "../7.jpg"
+import five from "../assets/10.webp";
+import band from "../assets/6.webp"
+import seven from "../assets/7.webp"
 import "../styles/About.css"
 
 
@@ -18,23 +14,23 @@ const About = () => {
             <h2 className="about-title">About Us</h2>
            
                 <div class="area one"> 
-                    <img src={band} className="about-img"/>
+                    <img src={band} className="about-img" alt='band member'/>
                     <blockquote><strong>chuckles</strong><br></br> What are you doing dude? <br></br>- Matt Kim, Vocals</blockquote> 
                 </div>
 
                 <div class="area two">
                     <blockquote><strong>plays guitar for 30 minutes</strong> <br></br>Oh shit haha that was tight. Yo, where's Zach? <br></br> - Justin Lee, Guitar</blockquote> 
-                    <img src={seven} className="about-img"/>
+                    <img src={seven} className="about-img" alt='band member'/>
                 </div>
 
                 <div class="area three">
-                    <img src={five} className="about-img"/>
+                    <img src={five} className="about-img" alt='band member'/>
                     <blockquote>About US? Yeah. We're all about faith and stuff. We play guitars. Yo have you seen my vape? Oh nvm, its in my hands hahaha. So yeah. Our homie Zach is a part of the gang but he never takes pics with us. He's living in Wyoming now, I think. Anyways, check out our jams.<br></br> - Daniel Lee, Bass Guitar</blockquote>
                 </div>
 
                 <div class="area four">
                     <p>Bro, you listen to djent? ;) <br></br> -Zach, Drums</p>
-                    <img src={band} className="about-img"/>
+                    <img src={band} className="about-img" alt='band member'/>
                 </div>
             </div>
  

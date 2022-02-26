@@ -4,13 +4,11 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import one from "../1s.jpg";
-import two from "../2.jpg";
-import three from "../3small.jpg";
-import four from "../4.jpg";
-import five from "../5.jpg";
-import six from "../6small.jpg";
-import seven from "../7.jpg";
+import one from "../assets/1s.webp";
+import two from "../assets/2.webp";
+import three from "../assets/3small.webp";
+import five from "../assets/5.webp";
+import six from "../assets/6small.webp";
 import { EffectCoverflow, Pagination } from "swiper";
 
 const Carousel = ({ btnName }) => {
@@ -33,26 +31,26 @@ const Carousel = ({ btnName }) => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={three} />
+          <img src={three} alt='tours'/>
           <button className="carousel-btn">Tours</button>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={one} />
+          <img src={one} alt='music'/>
           <button className="carousel-btn">Music</button>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={five} />
+          <img src={five} alt='videos'/>
           <button className="carousel-btn">Videos</button>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={two} />
+          <img src={two} alt='other projects'/>
           <button className="carousel-btn">Other Projects</button>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={six} />
+          <img src={six} alt='band members'/>
           <button className="carousel-btn">Band Members</button>
         </SwiperSlide>
       </Swiper>
