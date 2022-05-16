@@ -14,7 +14,7 @@
   place-items: center;
   border-radius: 15px;
   width: fit-content !important;
-  
+
 }
 .swiper-slide img {
   object-fit: contain;
@@ -23,7 +23,7 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .carousel-btn {
-  font-family: 'Fredericka the Great', cursive; 
+  font-family: 'Fredericka the Great', cursive;
   color: rgba(255, 255, 255, 1);
   background: #222831;
   padding: 0.5em 1.5em;
@@ -32,7 +32,7 @@
   transition: all 0.5s ease;
   font-size: 1.5rem;
   margin-top: 5%;
-  
+
 }
 .carousel-btn:hover {
   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
