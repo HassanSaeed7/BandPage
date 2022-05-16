@@ -20,7 +20,7 @@ const About = () => {
                             <li>Daniel Lee (Bass)</li>
                             <li>Zach Edge (Drums)</li>
                         </ul>
-                        Meeting in high school, the band members bonded over a passion for music production. During college, they decided to re-connect and decided to record a collaboration. Wake released an EP in 2016, <a href="https://waketheband.bandcamp.com/">///</a>, a release which embodies a dreamlike saunter of string and percussion.
+                        Meeting in high school, the band members bonded over a passion for music production. During college, they decided to re-connect and decided to record a collaboration. Wake released an EP in 2016, <a href="https://waketheband.bandcamp.com/" target="_blank" rel="noreferrer">{`///`}</a>, a release which embodies a dreamlike saunter of string and percussion.
                     </article>
                     <img src={band} className="about-img" alt='band member'/>
                 </div>
